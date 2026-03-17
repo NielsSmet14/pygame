@@ -10,7 +10,7 @@ pygame.display.set_caption('Pong')
 
 #Game loop begins
 while True:
-    pygame.draw.circle(screen, (255, 34, 45), (300, 200), 50)
+    pygame.draw.circle(screen, (255, 144, 45), (300, 200), 50)
     for event in pygame.event.get():
         if event.type == QUIT:
             pygame.quit()
