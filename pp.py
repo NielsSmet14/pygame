@@ -9,6 +9,7 @@ screen = pygame.display.set_mode((1280, 720))
 pygame.display.set_caption('Pong')
 x = 200
 y = 200
+vel = 10
 #Game loop begins
 while True:
     keys = pygame.key.get_pressed()
